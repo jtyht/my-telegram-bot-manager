@@ -564,7 +564,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ─── MAIN ───────────────────────────────────────────────────────────────────
 
 def main():
-    TOKEN = os.environ.get("BOT_TOKEN", " 8702706418:AAETQYIUjT2T2LTIeL0Nvo7gS-P2vysBdxg")
+    TOKEN = os.environ.get("BOT_TOKEN", "8702706418:AAHQ37uqiSRrRcTzbNFeTT5kNbcOjKPqxwE")
     app = Application.builder().token(TOKEN).build()
 
     # Start & Help
